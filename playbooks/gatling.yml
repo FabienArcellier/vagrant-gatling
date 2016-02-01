@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: yes
+  vars:
+  tasks:
+    - name: Ensure maven is present
+      apt: name=maven state=present
+
+  roles:
+    - geerlingguy.jenkins
+
+  handlers:

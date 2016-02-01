@@ -1,0 +1,5 @@
+.vagrant
+ssh.config
+scripts/id_rsa.pub
+roles/geerlingguy.jenkins
+roles/geerlingguy.java
