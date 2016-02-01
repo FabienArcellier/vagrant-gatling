@@ -6,6 +6,9 @@
     - name: Ensure maven is present
       apt: name=maven state=present
 
+    - name: Ensure zip is present
+      apt: name=zip state=present
+
   roles:
     - geerlingguy.jenkins
 
