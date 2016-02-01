@@ -30,9 +30,9 @@ Configure jenkins
 
 Here is the job configuration
 
-  cp -R /vagrant_src/* .
-  mvn clean gatling:execute
-  zip -r gatling.zip target/gatling/results/*
+    cp -R /vagrant_src/* .
+    mvn clean gatling:execute
+    zip -r gatling.zip target/gatling/results/*
 
 Check playbook
 ==============
